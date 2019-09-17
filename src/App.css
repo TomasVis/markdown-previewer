@@ -1,0 +1,27 @@
+
+.parent{
+  padding: 20px;
+  display:flex;
+  justify-content:space-between;
+}
+.wrapper{
+  padding:20px
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width:50%;
+  height:auto;
+-webkit-box-shadow: 3px 4px 7px -2px rgba(0,0,0,1);
+-moz-box-shadow: 3px 4px 7px -2px rgba(0,0,0,1);
+box-shadow: 3px 4px 7px -2px rgba(0,0,0,1);
+}
+.markdown{
+  margin: 20px;
+min-width: 90%;
+max-width: 90%;
+}
+#preview{
+  padding: 20px;
+}

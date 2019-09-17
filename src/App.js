@@ -43,12 +43,12 @@ rawMarkup() {
       <div className="wrapper">
         <h1>ReactJS Markdown Editor</h1>
       <div className="parent">
-        <div className="markdown-container">
+        <div className="container">
           <h3>Markdown</h3>
           <textarea className="markdown" defaultValue={this.state.content} 
             onChange={this.handleChange}></textarea>
         </div>
-        <div>
+        <div className="container">
           <h3>Preview</h3>
           <div id="preview" dangerouslySetInnerHTML={this.rawMarkup()}></div>
         </div>
